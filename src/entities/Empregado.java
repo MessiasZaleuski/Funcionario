@@ -5,7 +5,7 @@ public class Empregado {
 	private Integer hora;
 	private Double valorPorHora;
 	
-	//CONSTRUTUOR PADRÃO 
+	//CONSTRUTOR PADRÃƒO 
 	public Empregado () {  
 		
 	}
@@ -35,7 +35,7 @@ public class Empregado {
 		this.valorPorHora = valorPorHora;
 	}
 	
-	//MÉTODO, CALCULAR VALOR POR HORA 
+	//MÃ‰TODO, CALCULAR VALOR POR HORA 
 	public double pagamento() {
 		return hora * valorPorHora;
 	}
